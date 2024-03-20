@@ -9,4 +9,9 @@ on:
 jobs:
   trigger_master:
     uses: Paultergeist/gha_master/.github/workflows/basic.yml@master
+    with:
+      caller_repo: gha_sub1
+      caller_branch: ${{ github.ref_name }}
+      ref: ${{ github.ref }}
+      ref_name: ${{ github.ref_name }}
       
