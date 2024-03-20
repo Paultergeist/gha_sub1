@@ -8,5 +8,5 @@ on:
 
 jobs:
   trigger_master:
-    uses: Paultergeist/gha_master/.github/workflows/basic.yaml@master
+    uses: Paultergeist/gha_master/.github/workflows/basic.yml@master
       
