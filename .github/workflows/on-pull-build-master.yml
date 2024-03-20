@@ -12,6 +12,7 @@ jobs:
     with:
       caller_repo: gha_sub1
       caller_branch: ${{ github.ref_name }}
-      ref: ${{ github.ref }}
-      ref_name: ${{ github.ref_name }}
+      caller_ref: ${{ github.ref }}
+      # ref: ${{ github.ref }}
+      # ref_name: ${{ github.ref_name }}
       
