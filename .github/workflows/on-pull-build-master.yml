@@ -1,4 +1,4 @@
-name: CMake on multiple platforms
+name: Trigger Build in gha_master
 
 on:
   push:
