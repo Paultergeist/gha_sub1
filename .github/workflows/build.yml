@@ -23,7 +23,7 @@ jobs:
 
       - uses: actions/checkout@v4
         with:
-          ssh-key : ${{ secrets.CONAN_CONFIG_DEPLOY_KEY }}
+          token : ${{ secrets.CONAN_CONFIG_PAT }}
           repository: Paultergeist/conan-config
           ref: sample1
           path: conan-config
